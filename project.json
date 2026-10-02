@@ -1,0 +1,20 @@
+{
+  "id": 61,
+  "title": "Indoor Air Quality Panel Live Dashboard",
+  "repository_slug": "indoor-air-quality-panel-live-dashboard",
+  "category": "Smart Home",
+  "platform": "Raspberry Pi Zero 2 W",
+  "platform_family": "python",
+  "difficulty": "Intermediate",
+  "estimated_hours": 28,
+  "connectivity": "BLE",
+  "components": [
+    "servo motor",
+    "PIR sensor"
+  ],
+  "scope": "Build a smart home prototype that uses servo motor, PIR sensor to display live measurements and status. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Live Dashboard demonstration with repeatable test steps",
+  "mode": "telemetry",
+  "entrypoint": "src/main.py",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
